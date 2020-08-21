@@ -1,6 +1,6 @@
 {
-  "name": "netlify-cms-widget-starter",
-  "description": "A boilerplate for creating Netlify CMS widgets.",
+  "name": "@ordent/netlify-cms-widget-url-preview",
+  "description": "A widget for creating url preview and saving the metadata content.",
   "keywords": [
     "netlify",
     "netlify-cms",
@@ -10,7 +10,7 @@
     "boilerplate"
   ],
   "version": "0.0.1",
-  "homepage": "https://github.com/netlify/netlify-cms-widget-starter",
+  "homepage": "https://github.com/ordent/netlify-cms-widget-url-preview",
   "license": "MIT",
   "main": "dist/main.js",
   "devDependencies": {
@@ -29,12 +29,13 @@
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.3",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14",
+    "webpack-cli": "^3.1.1",
     "webpack-serve": "^0.3.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "axios": "^0.19.2",
+    "babel-core": "^6.26.3",
     "prop-types": "^15.6.1"
   },
   "peerDependencies": {
@@ -45,5 +46,13 @@
     "demo": "webpack --display errors-only --devtool source-map",
     "build": "cross-env NODE_ENV=production webpack",
     "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ordent/netlify-widget-url-preview.git"
+  },
+  "author": "Dimas Satrio @dimassrio",
+  "bugs": {
+    "url": "https://github.com/ordent/netlify-widget-url-preview/issues"
   }
 }
