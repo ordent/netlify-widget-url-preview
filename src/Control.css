@@ -1,0 +1,33 @@
+.flex {
+  width: 100%;
+  display: flex;
+}
+.flex input {
+  border: #333 solid 1px;
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 60%;
+}
+.flex button {
+  width: 20%;
+}
+.input-box {
+  border: #333 solid 1px;
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 100%;
+}
+.text-box {
+  border: #333 solid 1px;
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 100%;
+}
+img {
+  width: 100%;
+  min-height: 200px;
+  object-fit: contain;
+}
+.width-full {
+  width: 100%;
+}
